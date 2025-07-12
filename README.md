@@ -38,10 +38,17 @@ CREATE TABLE club_member_info_cleaned (
 	membership_date NVARCHAR(50)
 );
 
-**Copy all values from original table
-**
+**Copy all values from original table**
+
 INSERT INTO club_member_info_cleaned 
 SELECT * FROM club_member_info;
 
+Some possible issues with data:
+
+- Inconsistent letter case
+- Age out of realistic range
+- Leading and trailing whitespaces
+
+We will deal with these issues and clean it properly
 
 
