@@ -1,3 +1,3 @@
 # Swisscodeclass
 ### Features
-This is an educational project on data cleaning and preparation using SQL. The original database in CSV format is located in the file club_member_info.csv. Here, we will explore the steps that need to be applied to obtain a cleansed version of the dataset.
+This project serves as an educational resource for data cleaning and preparation techniques utilizing SQL. Beginning with the raw club_member_info.csv database, we will systematically explore the necessary procedures to produce a refined and cleansed dataset.
